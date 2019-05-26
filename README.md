@@ -1,5 +1,7 @@
 # Git::Describe
 
+[![Build Status](https://travis-ci.org/nicb/git-describe.svg?branch=master)](https://travis-ci.org/nicb/git-describe)
+
 This is an idiotic `git` tag info gem to incorporate current git tags into
 code. I hate to have to do this, but I can't find anything suitable enough
 around.
