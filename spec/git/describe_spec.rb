@@ -9,7 +9,7 @@ RSpec.describe Git::Describe do
   end
 
   it 'has a :git class method that actually does its job' do
-    expect(Git::Describe.git).to match(/^v[0-9]+\.[0-9]+.*\-[a-z0-9]+/)
+    expect(Git::Describe.git).to match(/^v[0-9]+\.[0-9]+.*[^\n]/)
   end
 
   it 'will return an empty string if it is not inside a git repository' do

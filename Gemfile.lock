@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    git-describe (0.1.0)
+    git-describe (0.1.1)
 
 GEM
   remote: https://rubygems.org/
